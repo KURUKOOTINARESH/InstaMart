@@ -1,0 +1,38 @@
+.insta-mart-page{
+    height: 100vh;
+    display: flex;
+}
+.insta-mart-item{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.insta-mart-item img{
+    height: 55%;
+}
+.insta-mart-button{
+    padding: 1rem;
+    margin-top: 2rem;
+    width: 300px;
+    border: none;
+    font-weight: 700;
+}
+.insta-mart-button:hover{
+    cursor: pointer;
+}
+.shopper-section{
+    background-color: #E2F2FF;
+}
+.seller-section{
+    background-color: #1564C1;
+}
+.seller-btn{
+    background-color: #E2F2FF;
+    color: #1564C1;
+}
+.shopper-btn{
+    background-color: #1564C1;
+    color: #E2F2FF;
+}
